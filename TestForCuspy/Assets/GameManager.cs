@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
     [Header("Сила толчка:")]
     [Range(0.1f, 10.0f)]
     public float Force;
-    [Header("Скорость блоков:")]
+    [Header("Стартовая скорость блоков:")]
     [Range(0.1f,10.0f)]
     public float Speed;
 

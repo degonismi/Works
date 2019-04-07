@@ -7,8 +7,10 @@ using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
     Rigidbody2D rb;
-    float force = 3.0f;
-    bool startGame;
+
+    private float force = 3.0f;
+    private bool startGame;
+
     public GameObject Blocks;
     public GameObject StartPanel;
     public GameObject LosePanel;

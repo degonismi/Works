@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BlockScr : MonoBehaviour
+public class BlockMover : MonoBehaviour
 {
-    private float speed;
+    public static float Speed;
 
     GameManager game;
 
@@ -14,7 +14,7 @@ public class BlockScr : MonoBehaviour
     }
     private void Start()
     {
-        speed = game.Speed;
+        Speed = game.Speed;
     }
 
     void Update()
@@ -23,7 +23,7 @@ public class BlockScr : MonoBehaviour
         {
             if (transform.position.x > -10)
             {
-                transform.position -= (transform.right * Time.deltaTime * speed);
+                transform.position -= (transform.right * Time.deltaTime * Speed);
             }
             else
             {
@@ -44,4 +44,5 @@ public class BlockScr : MonoBehaviour
         float rand = Random.Range(-1.0f, 4.0f);
         transform.position = new Vector3(10.0f, rand);
     }
+
 }

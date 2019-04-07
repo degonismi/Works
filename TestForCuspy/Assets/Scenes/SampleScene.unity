@@ -1586,9 +1586,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 1948837685}
   MaxScore: {fileID: 1038304583}
-  Mass: 0.59
-  Force: 2.91
-  Speed: 1.93
+  Mass: 1
+  Force: 5
+  Speed: 2
 --- !u!4 &775418336
 Transform:
   m_ObjectHideFlags: 0
