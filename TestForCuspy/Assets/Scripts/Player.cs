@@ -61,6 +61,10 @@ public class Player : MonoBehaviour
         LoseScore.text = GameManager.BestScore + "\n" + GameManager.Score;
         LoseAttempts.text = "ATTEMPTS\n" + GameManager.LoseCount;
     }
-    
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        GameManager.Score++;
+        BlockMover.Speed += 0.2f;
+    }
 
 }

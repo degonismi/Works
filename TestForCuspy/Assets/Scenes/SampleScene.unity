@@ -1902,7 +1902,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1017166717}
   - component: {fileID: 1017166719}
-  - component: {fileID: 1017166718}
   m_Layer: 0
   m_Name: Trigger (2)
   m_TagString: Untagged
@@ -1924,18 +1923,6 @@ Transform:
   m_Father: {fileID: 456000133}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1017166718
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1017166716}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3759a6ed754dd446984add4782e6cdf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &1017166719
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2821,7 +2808,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1300321593}
   - component: {fileID: 1300321595}
-  - component: {fileID: 1300321594}
   m_Layer: 0
   m_Name: Trigger (3)
   m_TagString: Untagged
@@ -2843,18 +2829,6 @@ Transform:
   m_Father: {fileID: 10884585}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1300321594
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1300321592}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3759a6ed754dd446984add4782e6cdf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &1300321595
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2891,7 +2865,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1309174855}
   - component: {fileID: 1309174857}
-  - component: {fileID: 1309174856}
   m_Layer: 0
   m_Name: Trigger
   m_TagString: Untagged
@@ -2913,18 +2886,6 @@ Transform:
   m_Father: {fileID: 1292091599}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1309174856
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1309174854}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3759a6ed754dd446984add4782e6cdf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &1309174857
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3664,7 +3625,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1597761362}
   - component: {fileID: 1597761364}
-  - component: {fileID: 1597761363}
   m_Layer: 0
   m_Name: Trigger (1)
   m_TagString: Untagged
@@ -3686,18 +3646,6 @@ Transform:
   m_Father: {fileID: 494955397}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1597761363
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1597761361}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3759a6ed754dd446984add4782e6cdf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &1597761364
 BoxCollider2D:
   m_ObjectHideFlags: 0
